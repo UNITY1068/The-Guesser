@@ -34,9 +34,15 @@ html {
 }
 
 .first_center {
-	font-size: 15;
+	font-size: 15px;
 	border_bottom_color: #1e4d69;
 	boarder-bottom-style: ridge;
+	font-family: "Helvetica", sans-serif;
+	text-allign: center;
+}
+
+.footer {
+	font-size: 8px;
 	font-family: "Helvetica", sans-serif;
 	text-allign: center;
 }
