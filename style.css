@@ -30,11 +30,14 @@ html {
 	border-style: ridge;
 	padding: 5px;
 	font-size: 12;
+	border-radius: 8px;
+	padding: 5px;
 }
 
 .center1 {
 	center;
-	font-szie: 15;
+	font-size: 15;
 	border_bottom_color: #1e4d69;
 	boarder-bottom-style: ridge;
+	font-family: "Helvetica", sans-serif;
 }
