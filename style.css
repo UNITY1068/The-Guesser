@@ -11,6 +11,7 @@ html {
 	background-color: #7a8a96;
 	border-bottom-style: solid;
 	border-bottom-color: #40617a;
+	border: 3px solid #306973;
 }
 
 .nav {
@@ -22,6 +23,7 @@ html {
 }
 
 .body {
+	border: 3px solid #3181b0;
 	border-style: ridge;
 	padding: 5px;
 	font-size: 12;
