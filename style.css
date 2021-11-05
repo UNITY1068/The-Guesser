@@ -12,6 +12,7 @@ html {
 	border-bottom-style: solid;
 	border-bottom-color: #40617a;
 	border: 3px solid #306973;
+	center;
 }
 
 .nav {
@@ -20,6 +21,7 @@ html {
 	border-radius: 8px;
 	border: 3px solid #42488c;
 	font-size: 10;
+	center;
 }
 
 .body {
