@@ -31,3 +31,10 @@ html {
 	padding: 5px;
 	font-size: 12;
 }
+
+.center1 {
+	center;
+	font-szie: 15;
+	border_bottom_color: #1e4d69;
+	boarder-bottom-style: ridge;
+}
