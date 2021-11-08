@@ -12,6 +12,6 @@ This is a guessing game that will be updated and later the feature of the machin
 ### Link 1
 [My Webpage](https://unity1068.github.io/The-Guesser/)
 ### Link 2
-[Other Repos Made By Me](https://github.com/unity1068/)
+[Other Repos Made By Me](https://github.com/unity1068/repos)
 ### Link 3
 [My Email](mykelc1025@gmail.com)
