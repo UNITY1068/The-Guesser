@@ -2,6 +2,12 @@ html {
 	background-color: #473d54;
 }
 
+canvas {
+	background: #eee;
+	display: block;
+	margin: 0 auto; 
+}
+
 .wrapper {
 	background-color: #9aa6b3;
 }
