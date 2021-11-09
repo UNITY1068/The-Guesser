@@ -7,11 +7,12 @@ canvas.height = 600;
 const cellSize = 100;
 const cellGap = 3;
 const gameGrid = [];
+let defenderCost = 100;
 
 // mouse
 const mouse ={
-  x: undefined,
-  y: undefined,
+  x: 10,
+  y: 10,
   width: 0.1,
   height: 0.1,
 }
@@ -38,8 +39,10 @@ class Cell {
     this.height = cellSize;
   }
   draw(){
-    ctx.strokeStyle = "black";
-    ctx.strokeRect(this.x, this.y, this.width, this.height);
+    if (mouse.x && mouse.y && collision(this, mouse)){
+          ctx.strokeStyle = "black";
+          ctx.strokeRect(this.x, this.y, this.width, this.height);
+    }
   }
 }
 function createGrid() {
@@ -56,13 +59,36 @@ function handleGameGrid() {
     
   }
 }
-
 // projectiles
 // defenders
+class Defender {
+  constructor(x, y){
+    this.x - x;
+    this.y - y;
+    this.width = cellSize;
+    this.height = cellSize;
+    this.shooting = false;
+    this.health = 100;
+    this.projectiles = [];
+    this.timer = 0;
+  }
+  draw(){
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(this.x, this.y, this.width, this.height);
+    ctx.fillStyle = 'gold';
+    ctx.font = '20px Arial';
+    ctx.fillText(Math.floor(this.health), this.x, this.y)
+  }
+}
+canvas.addEventListener('click', function(){
+  const gridPositionX = mouse.x - (mouse.x % cellSize);
+})
+
 // enemies
 // resourses
 // ultilities
 function animate(){
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "blue";
   ctx.fillRect(0,0,controlsBar.width, controlsBar.height);
   requestAnimationFrame(animation);
