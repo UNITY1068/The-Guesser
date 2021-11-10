@@ -2,16 +2,6 @@ html {
 	background-color: #473d54;
 }
 
-#canvas {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 900px;
-	height: 600px;
-	background: white;
-}
-
 .wrapper {
 	background-color: #9aa6b3;
 }
@@ -55,4 +45,8 @@ html {
 	font-size: 8px;
 	font-family: "Helvetica", sans-serif;
 	text-allign: center;
+}
+
+.project {
+	background-color: black
 }
