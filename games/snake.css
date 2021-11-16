@@ -1,17 +1,45 @@
 html {
-  
+	background-color: #473d54;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-.header {
-  background-color: ;
-  allign: center;
+.title {
+	font-size: 20px;
+	font-family: "Helvetica", sans-serif;
+	background-color: #7a8a96;
+	border-bottom-style: solid;
+	border-bottom-color: #40617a;
+	border: 3px solid #306973;
+	text-allign: center;
 }
 
 .nav {
-  float: left;
+	float: left;
+	padding: 5px;
+	border-radius: 8px;
+	border: 3px solid #42488c;
+	font-size: 10px;
+	text-allign: center;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.body {
+	border: 3px solid #687c87;
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+.footer {
+	font-size: 8px;
+	font-family: "Helvetica", sans-serif;
+	text-allign: center;
+}
+
+.project {
+	background-color: black
 }
