@@ -9,8 +9,12 @@ function fadeIn(el) {
     tick();
 }
 
-function myFunction() {
-    var el = document.getElementById("dog");
+function start_games() {
+    
+}
+
+function intro() {
+    var el = document.getElementById("");
   console.log(el);
     fadeIn(el);
 }
