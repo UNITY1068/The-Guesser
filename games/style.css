@@ -2,6 +2,16 @@ html {
 	background-color: #473d54;
 }
 
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+    opacity: 0;
+    filter: alpha(opacity=40);
+}
+
 .title {
 	font-size: 20px;
 	font-family: "Helvetica", sans-serif;
@@ -19,11 +29,6 @@ html {
 	border: 3px solid #42488c;
 	font-size: 10px;
 	text-allign: center;
-}
-
-ul {
-	margin: 0px;
-	padding: 0px;
 }
 
 .body {
