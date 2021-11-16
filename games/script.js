@@ -9,12 +9,8 @@ function fadeIn(el) {
     tick();
 }
 
-function start_games() {
-    
-}
-
 function intro() {
-    var el = document.getElementById("");
+    var el = document.getElementById("made-by-unity");
   console.log(el);
     fadeIn(el);
 }
