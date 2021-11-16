@@ -14,3 +14,11 @@ function intro() {
   console.log(el);
     fadeIn(el);
 }
+
+function wait5() {
+    var content = document.getElementById("container");
+  content.style.display="none";
+  setTimeout(function(){
+    content.style.display="block";
+  }, 5000);
+}
