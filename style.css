@@ -25,6 +25,12 @@ html {
 	text-allign: center;
 }
 
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
 .body {
 	border: 3px solid #687c87;
 	padding: 5px;
